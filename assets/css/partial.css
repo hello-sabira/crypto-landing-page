@@ -1,0 +1,11 @@
+.square {
+    height: 400px;
+    transform-origin: center center;
+    animation: rotateAnimation 10s linear infinite;
+  }
+  
+  @keyframes rotateAnimation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
